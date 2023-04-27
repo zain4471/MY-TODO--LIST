@@ -59,7 +59,7 @@ header h1{
 }
 #new-task-form {
 	display: flex;
-	width: 100%;
+	max-width: 100%;
 }
 input, button {
 	appearance: none;
@@ -103,7 +103,7 @@ input, button {
 main {
 	flex: 1 1 0%;
 	
-	width: 100%;
+	max-width: 100%;
 	margin: 0 auto;
 }
 .task-list {
